@@ -1,0 +1,557 @@
+/* parent */
+
+/* sm */
+@media (max-width: 639px) { 
+    
+    .parent{
+        grid-template-areas: 
+        " box1-item1 box1-item1 box1-item1 box1-item1"
+        " box1  box1 box1 box1"
+        " box2  box2 box2 box2"
+        " box5  box5 box5 box5"
+        " box3  box3 box3 box3"
+        " box7  box7 box7 box7"
+        " box6  box6 box6 box6"
+        " box4  box4 box4 box4"
+        " box8  box8 box8 box8"
+        " box9  box9 box9 box9";
+    }
+    
+ }
+
+
+/* md */
+@media  (min-width: 640px) 
+{
+    .parent{
+        grid-template-areas: 
+        " box1-item1 box1-item1 box1-item1 box1-item1"
+        " box1  box1 box1 box1"
+        " box2  box2 box5 box5"
+        " box3  box3 box3 box3"
+        " box7  box7 box4 box4"
+        " box6  box6 box4 box4"
+        " box8  box8 box8 box8"
+        " box9  box9 box9 box9";
+    }
+}
+@media (min-width: 768px) { 
+    
+         
+            .parent{
+                grid-template-areas: 
+            " box1-item1 box1-item1 box1-item1 box1-item1"
+            " box1  box1 box1 box1"
+            " box2  box2 box5 box5"
+            " box3  box3 box3 box3"
+            " box7  box7 box4 box4"
+            " box6  box6 box4 box4"
+            " box8  box8 box8 box8"
+            " box9  box9 box9 box9";
+            } 
+ }
+
+
+/* md */
+@media  (min-width: 1024px) 
+{
+    .parent{
+        grid-template-areas: 
+    " box1 box1 box1-item1 box1-item1"
+    " box2  box3 box3 box4"
+    " box5  box6 box6 box4"
+    " box7  box8  box9 box9"
+    ;
+    } 
+}
+/* xl */
+@media  (max-width: 1280px) 
+{
+ 
+    
+}
+/* lg */
+@media  (max-width: 1536px) 
+{
+
+}
+
+
+
+
+
+
+/* ============================box1-item1======================= */
+@media (max-width: 500px){
+    .box1-item1{
+        padding: 50px 0;
+    }
+    .How-use {
+        width: 90%;
+    }
+    .How-use h1 {
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: rgb(51, 51, 51);
+    }
+}
+/* sm */
+@media (min-width: 640px) { 
+    .box1-item1{
+        padding: 50px 0;
+    }
+    .How-use {
+        width: 90%;
+        
+    }
+    .How-use h1 {
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: rgb(51, 51, 51);
+        
+    }
+ }
+/* md */
+@media  (min-width: 768px) {
+    .box1-item1{
+        padding: 50px 0
+    }
+    .How-use {
+        width: 100%;
+    }
+    .How-use h1 {
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: rgb(51, 51, 51);
+        
+    }
+}
+/* lg */
+@media  (min-width: 1024px) {
+    .How-use {
+        width: 90%;
+    }
+    .How-use h1 {
+        font-size: 32px;
+        line-height: 49px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: rgb(51, 51, 51);
+    }
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+/*====================== box1================================= */
+@media (max-width: 500px) {
+    .box1{
+        flex-direction: column;
+    }
+    .iPhone{
+        width:80%;
+        padding: 20px 0;
+    } 
+    .box1-img {
+        width: 60%;
+        margin: auto;
+        
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box1{
+        flex-direction: row;
+    }
+    .iPhone{
+        width: 60%;
+    }
+}
+/* md */
+@media  (min-width: 768px) {
+    .iPhone{
+        width:60%;
+    } 
+}
+/* lg */
+@media  (min-width: 1024px) {
+    .iPhone{
+        width: 60%;
+    }
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+/*=========================box2================================= */
+@media (max-width: 500px) {
+    .box2-img img {
+        width: 80%;
+    }
+    .keyboard-item h3{
+        width: 70%;
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    
+}
+/* md */
+@media  (min-width: 768px) {
+    
+}
+/* lg */
+@media  (min-width: 1024px) {
+    
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+/*=========================box3================================= */
+@media (max-width: 500px) {
+    .box3{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .box3-img {
+        margin: auto;
+        padding: 0 0;
+    }
+    .box3-img img{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box3{
+        flex-direction: row;
+    } 
+}
+/* md */
+@media  (min-width: 768px) {
+    .box3-img{
+        width: 50%;
+    }
+    .box3-item{
+        width: 50%;
+    }
+
+}
+/* lg */
+@media  (min-width: 1024px) {
+    
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+/*=========================box4================================= */
+@media (max-width: 500px) {
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box4-img{
+        width: 373px;
+        height: 373px;
+}
+}
+/* md */
+@media  (min-width: 768px) {
+    .box4-img{
+        width: 100%;
+        height: 60%;
+}
+.box4-item h2{
+    margin: 0px 0;
+    
+}
+/* lg */
+@media  (min-width: 1024px) {
+    .box4-img{
+        width:100%;
+        height: 40%;
+}
+.box4-item h2{
+    font-size: 32px;
+    line-height: 36px;
+    margin: 20px 0;
+    
+}
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+/*=========================box5================================= */
+@media (max-width: 500px) {
+    .box5-item h3 {
+        width: 90%;
+        }  
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box5-item h3 {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        }    
+}
+/* md */
+@media  (min-width: 768px) {
+    
+    .box5-item h3 {
+        width: 90%;
+        }   
+}
+/* lg */
+@media  (min-width: 1024px) {
+    
+    .box5-item h3 {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        }   
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+/*=========================box6================================= */
+@media (max-width: 500px) {
+    .box6-img img{
+        padding: 0px 0px 0 0;
+        transform: translate(-30px, 0px);
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box6-img img{
+        padding: 0px 0px 0 0;
+        transform: translate(-30px, 0px);
+    }
+}
+/* md */
+@media  (min-width: 768px) {
+    .box6-img img{
+        padding: 0px 0px 0 0;
+        transform: translate(-30px, 0px);
+    }
+}
+/* lg */
+@media  (min-width: 1024px) {
+    .box6-img img{
+        padding: 0px 0px 0 0;
+        transform: translate(-30px, 0px);
+    }
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+/*=========================box7================================= */
+@media (max-width: 500px) {
+    .box7-item {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+       
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    
+}
+/* md */
+@media  (min-width: 768px) {
+    
+}
+/* lg */
+@media  (min-width: 1024px) {
+    
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================box8================================= */
+@media (max-width: 500px) {
+}
+/* sm */
+@media (min-width: 640px) {  
+    
+}
+/* md */
+@media  (min-width: 768px) {
+    
+}
+/* lg */
+@media  (min-width: 1024px) {
+    
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
+
+
+/*=========================box9================================= */
+@media (max-width: 500px) {
+    .box9{
+        flex-direction: column;
+        
+    }
+    .box9-item h3{
+        width: 90%;
+        font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    }
+    .box9-img{
+        width: 100%;
+    }
+}
+/* sm */
+@media (min-width: 640px) {  
+    .box9{
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .box9-item {
+        width: 50%;
+    }
+    .box9-item h3{
+        width: 100%;
+        font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    }
+    .box9-img{
+        width: 50%;
+    }
+    .box9{
+        height: 100px;
+    }
+}
+
+/* md */
+@media  (min-width: 768px) {
+    .box9{
+        height:200px;
+    }
+}
+/* lg */
+@media  (min-width: 1024px) {
+    .box9{
+        height: 200px;
+    }
+    
+}
+/* xl */
+@media  (min-width: 1280px) {
+
+}
+/* lg */
+@media  (min-width: 1536px) {
+
+}
